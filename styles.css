@@ -783,17 +783,16 @@ footer {
     height: 300px;
   }
   .hero-text h1 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .section-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .navbar ul {
     gap: 20px;
     font-size: 0.9rem;
   }
   .about-container{
-    width:100%;
     margin: auto 20px;
     display: grid;
     grid-template-columns: 1fr;
@@ -810,6 +809,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
