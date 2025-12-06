@@ -792,21 +792,25 @@ footer {
     gap: 20px;
     font-size: 0.9rem;
   }
-.about-container {
-  width:100%;
-  margin: 10px auto;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.about-card{
-  grid-column: 1 !important;
-  grid-row: auto !important;
-}
+  .about-container{
+    width:100%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .about-card:nth-child(1),
+  .about-card:nth-child(2),
+  .about-card:nth-child(3),
+  .about-card:nth-child(4){
+    grid-column: 1;
+    grid-row: auto;
+  }
   .skills-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
