@@ -783,7 +783,7 @@ footer {
     height: 300px;
   }
   .hero-text h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .section-title {
     font-size: 2rem;
@@ -794,7 +794,7 @@ footer {
   }
   .about-container{
     width:100%;
-    margin: 10px auto;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -810,6 +810,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
