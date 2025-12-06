@@ -776,14 +776,14 @@ footer {
   .hero-section {
     flex-direction: column;
     text-align: center;
-    padding: 40px 30px;
+    padding: 40px 20px;
   }
   .hero-image {
     width: 250px;
     height: 300px;
   }
   .hero-text h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .section-title {
     font-size: 2rem;
@@ -794,7 +794,7 @@ footer {
   }
   .about-container{
     width:100%;
-    margin: 20px auto;
+    margin: auto 20px;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -810,6 +810,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
