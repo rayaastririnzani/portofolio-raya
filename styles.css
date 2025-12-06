@@ -793,7 +793,6 @@ footer {
     font-size: 0.9rem;
   }
   .about-container{
-    width: 100%;
     margin: auto 20px;
     display: grid;
     justify-content: center;
@@ -811,6 +810,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
