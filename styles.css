@@ -802,13 +802,14 @@ footer {
 .about-card:nth-child(2),
 .about-card:nth-child(3),
 .about-card:nth-child(4),{
-  grid-column: 1 / 2;
+  grid-column: 1;
   grid-row: auto;
 }
   .skills-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
